@@ -1,4 +1,4 @@
-Little traveler-app built in TS/React/Redux driven by TDD and structured with Hexagonal Architecture
+Little traveler-app built in TS/React/Redux driven by TDD and structured with Hexagonal Architecture (ports & adapters)
 
 ** Work In Progress **
 
