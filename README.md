@@ -1,5 +1,7 @@
 Little traveler-app built in TS/React/Redux driven by TDD and structured with Hexagonal Architecture
 
+** Work In Progress **
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
