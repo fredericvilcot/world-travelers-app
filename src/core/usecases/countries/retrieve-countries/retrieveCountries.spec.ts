@@ -1,7 +1,7 @@
 import { AppState } from "../../../../store/appState";
 import { configureStore, ReduxStore } from "../../../../store/store";
 
-describe("Retrieve a city list", () => {
+describe("Retrieve  countries", () => {
   let store: ReduxStore;
   let initialState: AppState;
 
@@ -10,7 +10,7 @@ describe("Retrieve a city list", () => {
     initialState = store.getState();
   });
 
-  it("should retrieve no city list if there are none available", () => {
+  it("should retrieve no countries if there are none available", () => {
     store.dispatch({ type: "RETRIEVED_SHOPPING_LIST" });
     expect(store.getState().coreLogicState).toEqual({
       ...initialState.coreLogicState,

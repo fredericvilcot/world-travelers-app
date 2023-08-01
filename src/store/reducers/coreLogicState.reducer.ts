@@ -1,4 +1,4 @@
 import { combineReducers } from "redux";
-import cityList from "./retrieveCityList.reducer";
+import countries from "./countries.reducer";
 
-export const coreLogicState = combineReducers({ cityList });
+export const coreLogicState = combineReducers({ countries });
