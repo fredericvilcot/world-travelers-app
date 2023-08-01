@@ -1,7 +1,7 @@
 export interface AppState {
   coreLogicState: {
     countries: {
-      list: string[] | null;
+      data: any[] | null;
     };
   };
 }
