@@ -1,10 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import reportWebVitals from "./reportWebVitals";
+import { Home } from "./adapters/primary/react/pages/home";
 
 ReactDOM.render(
   <React.StrictMode>
-    <div>Hello World Travelers !</div>
+    <Home />
   </React.StrictMode>,
   document.getElementById("root")
 );
