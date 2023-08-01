@@ -132,7 +132,7 @@ export type Subdivision = {
 export type QCountriesQueryVariables = Exact<{ [key: string]: never; }>;
 
 
-export type QCountriesQuery = { __typename?: 'Query', countries: Array<{ __typename?: 'Country', name: string, code: string }> };
+export type QCountriesQuery = { __typename?: 'Query', countries: Array<{ __typename?: 'Country', name: string }> };
 
 
       export interface PossibleTypesResultData {
