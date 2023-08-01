@@ -1,0 +1,10 @@
+overwrite: true
+generates:
+  src/generated/queries/geoDataQueries.ts:
+    schema: "https://countries.trevorblades.com"
+    documents:
+      - "src/adapters/secondary/API/graphql/geoDataQueries/*.graphql"
+    plugins:
+      - typescript
+      - typescript-operations
+      - fragment-matcher
